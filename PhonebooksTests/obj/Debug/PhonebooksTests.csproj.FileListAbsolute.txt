@@ -1,0 +1,6 @@
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\bin\Debug\PhonebooksTests.exe.config
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\bin\Debug\PhonebooksTests.exe
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\bin\Debug\PhonebooksTests.pdb
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\obj\Debug\PhonebooksTests.csprojResolveAssemblyReference.cache
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\obj\Debug\PhonebooksTests.exe
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\PhonebooksTests\obj\Debug\PhonebooksTests.pdb

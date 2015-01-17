@@ -5,3 +5,10 @@ D:\SoftUni\Level #2\High-Quality-Code\22.Exam-prep\Phonebook-Problem\ConsoleAppl
 D:\SoftUni\Level #2\High-Quality-Code\22.Exam-prep\Phonebook-Problem\ConsoleApplication1\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
 D:\SoftUni\Level #2\High-Quality-Code\22.Exam-prep\Phonebook-Problem\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\SoftUni\Level #2\High-Quality-Code\22.Exam-prep\Phonebook-Problem\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\PowerCollections.dll
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\PowerCollections.xml
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
