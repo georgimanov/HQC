@@ -6,20 +6,20 @@ namespace Phonebook
 {
     internal class ListPhones : IComparable<ListPhones>
     {
-        private string name;
-        private string name2;
+        private string firstName;
+        private string secodName;
 
-        public string Name
+        public string FirstName
         {
             get
             {
-                return name;
+                return firstName;
             }
 
             set
             {
-                name = value;
-                name2 = value.ToLowerInvariant();
+                firstName = value;
+                secodName = value.ToLowerInvariant();
             }
         }
 
@@ -31,7 +31,7 @@ namespace Phonebook
             
             sb.Clear();
             sb.Append('[');
-            sb.Append(Name);
+            sb.Append(FirstName);
             bool flag = true;
             foreach (var phone in PhonenumberSortedSet)
             {
@@ -55,7 +55,7 @@ namespace Phonebook
 
         public int CompareTo(ListPhones other)
         {
-            return name2.CompareTo(other.name2);
+            return secodName.CompareTo(other.secodName);
         }
     }
 }

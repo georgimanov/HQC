@@ -49,7 +49,7 @@
     <Compile Include="PhonebookEntry.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
     </Compile>
-    <Compile Include="REP.cs" />
+    <Compile Include="PhonebookRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

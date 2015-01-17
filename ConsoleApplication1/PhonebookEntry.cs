@@ -7,7 +7,7 @@
     internal class PhonebookEntry
     {
         private const string Code = "+359";
-        private static readonly IPhonebookRepository Data = new REP();
+        private static readonly IPhonebookRepository Data = new PhonebookRepository();
         public static StringBuilder Input = new StringBuilder();
 
         private static void Main()
