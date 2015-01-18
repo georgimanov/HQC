@@ -11,4 +11,5 @@ D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Deb
 D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\PowerCollections.dll
 D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\PowerCollections.xml
-D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.CodeAnalysisLog.xml
+D:\SoftUni\Level #2\High-Quality-Code\HQC-Repository\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.lastcodeanalysissucceeded

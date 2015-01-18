@@ -54,9 +54,7 @@ namespace Phonebook
         {
             if (first < 0 || first + num > dict.Count)
             {
-                Console.WriteLine("Invalid start index or count.");
-
-                return null;
+                throw  new ArgumentOutOfRangeException("Invalid start index or count.");
             }
 
             ListPhones[] list = new ListPhones[num];
