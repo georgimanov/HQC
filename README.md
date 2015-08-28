@@ -14,12 +14,10 @@ Liskov Substitution Principle
 - Is-A relation
 - Animal "Cow is an/Dog is an/Cat isn an"
 - Shape : Rectangle is a Shape; Square is a Shape (not a Rectangle? depends!)
-
 - Implementation of the inheritance should be very close to the parent class; 
 
 Interface Segregation
 - clients shold not be forced to depend on method that they do not use
-
 - small cohesive interfaces
 - divide "fat" interfaces into smaller ones
 
