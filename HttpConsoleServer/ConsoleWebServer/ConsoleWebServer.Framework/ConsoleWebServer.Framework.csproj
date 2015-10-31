@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E420F13-35C3-4ED7-92FB-2B4A469B2BE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleWebServer.Framework</RootNamespace>
+    <AssemblyName>ConsoleWebServer.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionInvoker.cs" />
+    <Compile Include="ActionResult\BaseActionResult.cs" />
+    <Compile Include="ActionResult\ContentActionResult\ContentActionResult.cs" />
+    <Compile Include="ActionResult\ContentActionResult\ContentActionResultWithCors.cs" />
+    <Compile Include="ActionResult\ContentActionResult\ContentActionResultWithCorsWithoutCaching.cs" />
+    <Compile Include="ActionResult\ContentActionResult\ContentActionResultWithoutCaching.cs" />
+    <Compile Include="ActionResult\JsonActionResult\JsonActionResultWithCors.cs" />
+    <Compile Include="ActionResult\JsonActionResult\JsonActionResultWithCorsWithoutCaching.cs" />
+    <Compile Include="ActionResult\JsonActionResult\JsonActionResultWithoutCaching.cs" />
+    <Compile Include="CustomExceptions\ParserException.cs" />
+    <Compile Include="ActionResult\JsonActionResult\JsonActionResult.cs" />
+    <Compile Include="NewActionInvoker.cs" />
+    <Compile Include="ResponseProvider\BadRequestResponseProvider.cs" />
+    <Compile Include="ResponseProvider\BaseResponseProvider.cs" />
+    <Compile Include="ResponseProvider\Contracts\IResponseProvider.cs" />
+    <Compile Include="ResponseProvider\ControllerResponseProvider.cs" />
+    <Compile Include="ResponseProvider\OptionsResponseProvider.cs" />
+    <Compile Include="ResponseProvider\StaticFileHandler.cs" />
+    <Compile Include="CustomExceptions\HttpNotFoundException.cs" />
+    <Compile Include="HttpRequest.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="ResponseProvider\HttpResponce.cs" />
+    <Compile Include="ActionResult\Contracts\IActionResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ActionDescriptor.cs" />
+    <Compile Include="ResponseProvider\ResponseProvider.cs" />
+    <Compile Include="var.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

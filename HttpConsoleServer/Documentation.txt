@@ -1,0 +1,40 @@
+Design pattern: Factory Method
+	* 
+
+Design pattern: Strategy
+	* ConsoleWebServer IResponseProvider can be replaced by response providers
+	* IActionResult is inherited by ContentActionResult and JsonActionResult and is used in Controller (framework)
+
+Design pattern: Template Method
+	* GenerateResponse in ContentActionResult and JsonActionResult
+	* 
+
+Design pattern: Chain of Responsibility
+	* Response provider. ResponseProvider (if cannot hande response) passes it to StaticFileHandler -> Controller Respose provider
+
+Design pattern: Decorator
+	* 
+
+Found bugs:
+	* inputLine in WebServerConsole5.Start() is not passed to response provider.GetResponse()
+	* response provider  if (request.ProtocolVersion.Major < 3) was "<="
+	* ActionDescriptor on splitting had .AsArray, AsQuearyable, AsEnumerable, AsList() 
+
+Found bottleneck:
+	* StaticFileHandler searches in "C:\\" with depth 3 directories
+	* Removed 2nd string builder in HttpResponse.ToString Method
+
+Single responsibility principle
+	* In every computer component - Controller, ActionResult 
+
+Open/closed principle
+	* By using template method, inheritance (in the ActionResult), chain of responsibilities
+
+Liskov substitution principle
+	* All descendants can replace their base classes in all the code. Non of the children changes the base types behavior unexpectedly
+
+Interface segregation principle
+	* IActionResult was segragated from the other components. Also all components are small and cohesive
+
+Dependency inversion principle
+	* Used in every constructor where possible - ConsoleWebServer.Framework.ActionResult and its descendants for example
